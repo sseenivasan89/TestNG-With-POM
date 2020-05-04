@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-30T07:26:29 IST" name="Default suite" finished-at="2020-04-30T07:26:53 IST" duration-ms="24153">
+    <groups>
+      <group name="success">
+        <method signature="LoginTest.signInSuccess()[pri:3, instance:Tests.LoginTest@4d465b11]" name="signInSuccess" class="Tests.LoginTest"/>
+      </group> <!-- success -->
+      <group name="login">
+        <method signature="LoginTest.loginPageTitleTest()[pri:2, instance:Tests.LoginTest@4d465b11]" name="loginPageTitleTest" class="Tests.LoginTest"/>
+        <method signature="LoginTest.signIn()[pri:1, instance:Tests.LoginTest@4d465b11]" name="signIn" class="Tests.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2020-04-30T07:26:29 IST" name="Default test" finished-at="2020-04-30T07:26:53 IST" duration-ms="24153">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:29 IST" name="setUp" finished-at="2020-04-30T07:26:44 IST" duration-ms="15713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signIn()[pri:1, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:44 IST" name="signIn" finished-at="2020-04-30T07:26:47 IST" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:47 IST" name="tearDown" finished-at="2020-04-30T07:26:48 IST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=LoginTest.signIn()[pri:1, instance:Tests.LoginTest@4d465b11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginPageTitleTest()[pri:2, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:48 IST" name="loginPageTitleTest" finished-at="2020-04-30T07:26:52 IST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:52 IST" name="tearDown" finished-at="2020-04-30T07:26:52 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginTest.loginPageTitleTest()[pri:2, instance:Tests.LoginTest@4d465b11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="signInSuccess()[pri:3, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:52 IST" name="signInSuccess" finished-at="2020-04-30T07:26:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInSuccess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:52 IST" name="tearDown" finished-at="2020-04-30T07:26:52 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInSuccess status=SUCCESS method=LoginTest.signInSuccess()[pri:3, instance:Tests.LoginTest@4d465b11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Tests.LoginTest@4d465b11]" started-at="2020-04-30T07:26:52 IST" name="closeDriver" finished-at="2020-04-30T07:26:53 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

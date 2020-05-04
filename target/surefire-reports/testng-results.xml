@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-29T18:42:12 IST" name="Suite" finished-at="2020-04-29T18:42:55 IST" duration-ms="42965">
+    <groups>
+      <group name="logout">
+        <method signature="LogoutTest.loginPageTitleTest()[pri:2, instance:Tests.LogoutTest@2f8dad04]" name="loginPageTitleTest" class="Tests.LogoutTest"/>
+        <method signature="LogoutTest.signIn()[pri:1, instance:Tests.LogoutTest@2f8dad04]" name="signIn" class="Tests.LogoutTest"/>
+        <method signature="LogoutTest.signOut()[pri:3, instance:Tests.LogoutTest@2f8dad04]" name="signOut" class="Tests.LogoutTest"/>
+      </group> <!-- logout -->
+      <group name="login">
+        <method signature="LoginTest.loginPageTitleTest()[pri:2, instance:Tests.LoginTest@2bfc268b]" name="loginPageTitleTest" class="Tests.LoginTest"/>
+        <method signature="LoginTest.signIn()[pri:1, instance:Tests.LoginTest@2bfc268b]" name="signIn" class="Tests.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2020-04-29T18:42:12 IST" name="Test" finished-at="2020-04-29T18:42:55 IST" duration-ms="42965">
+      <class name="Tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:34 IST" name="setUp" finished-at="2020-04-29T18:42:45 IST" duration-ms="10488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signIn()[pri:1, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:45 IST" name="signIn" finished-at="2020-04-29T18:42:50 IST" duration-ms="4810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:50 IST" name="tearDown" finished-at="2020-04-29T18:42:50 IST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=LogoutTest.signIn()[pri:1, instance:Tests.LogoutTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginPageTitleTest()[pri:2, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:50 IST" name="loginPageTitleTest" finished-at="2020-04-29T18:42:51 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:51 IST" name="tearDown" finished-at="2020-04-29T18:42:51 IST" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LogoutTest.loginPageTitleTest()[pri:2, instance:Tests.LogoutTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="signOut()[pri:3, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:51 IST" name="signOut" finished-at="2020-04-29T18:42:54 IST" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:54 IST" name="tearDown" finished-at="2020-04-29T18:42:54 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signOut status=SUCCESS method=LogoutTest.signOut()[pri:3, instance:Tests.LogoutTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Tests.LogoutTest@2f8dad04]" started-at="2020-04-29T18:42:54 IST" name="closeDriver" finished-at="2020-04-29T18:42:55 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.LogoutTest -->
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@2bfc268b]" started-at="2020-04-29T18:42:12 IST" name="setUp" finished-at="2020-04-29T18:42:27 IST" duration-ms="15390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signIn()[pri:1, instance:Tests.LoginTest@2bfc268b]" started-at="2020-04-29T18:42:27 IST" name="signIn" finished-at="2020-04-29T18:42:32 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@2bfc268b]" started-at="2020-04-29T18:42:32 IST" name="tearDown" finished-at="2020-04-29T18:42:32 IST" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=LoginTest.signIn()[pri:1, instance:Tests.LoginTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginPageTitleTest()[pri:2, instance:Tests.LoginTest@2bfc268b]" started-at="2020-04-29T18:42:32 IST" name="loginPageTitleTest" finished-at="2020-04-29T18:42:33 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@2bfc268b]" started-at="2020-04-29T18:42:33 IST" name="tearDown" finished-at="2020-04-29T18:42:33 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginTest.loginPageTitleTest()[pri:2, instance:Tests.LoginTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Tests.LoginTest@2bfc268b]" started-at="2020-04-29T18:42:33 IST" name="closeDriver" finished-at="2020-04-29T18:42:34 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2020-04-29T18:42:55 IST" name="Suite (0)" finished-at="2020-04-29T18:43:37 IST" duration-ms="42454">
+    <groups>
+    </groups>
+    <test started-at="2020-04-29T18:42:55 IST" name="Test" finished-at="2020-04-29T18:43:37 IST" duration-ms="42454">
+      <class name="Parallel.ParallelTest2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Parallel.ParallelTest2@ea6147e]" started-at="2020-04-29T18:42:55 IST" name="beforeClass" finished-at="2020-04-29T18:43:31 IST" duration-ms="36214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:1, instance:Parallel.ParallelTest2@ea6147e]" started-at="2020-04-29T18:43:31 IST" name="test1" finished-at="2020-04-29T18:43:32 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:Parallel.ParallelTest2@ea6147e]" started-at="2020-04-29T18:43:32 IST" name="test2" finished-at="2020-04-29T18:43:36 IST" duration-ms="3295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Parallel.ParallelTest2@ea6147e]" started-at="2020-04-29T18:43:36 IST" name="afterClass" finished-at="2020-04-29T18:43:37 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Parallel.ParallelTest2 -->
+      <class name="Parallel.ParallelTest1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Parallel.ParallelTest1@3fb1549b]" started-at="2020-04-29T18:42:55 IST" name="beforeClass" finished-at="2020-04-29T18:43:32 IST" duration-ms="37131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:1, instance:Parallel.ParallelTest1@3fb1549b]" started-at="2020-04-29T18:43:32 IST" name="test1" finished-at="2020-04-29T18:43:33 IST" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:Parallel.ParallelTest1@3fb1549b]" started-at="2020-04-29T18:43:33 IST" name="test2" finished-at="2020-04-29T18:43:36 IST" duration-ms="3136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Parallel.ParallelTest1@3fb1549b]" started-at="2020-04-29T18:43:36 IST" name="afterClass" finished-at="2020-04-29T18:43:37 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Parallel.ParallelTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

@@ -1,0 +1,5 @@
+Tests\TestNGAnnotationsOrder.class
+Tests\LoginTest.class
+Tests\LogoutTest.class
+Parallel\ParallelTest1.class
+Parallel\ParallelTest2.class
